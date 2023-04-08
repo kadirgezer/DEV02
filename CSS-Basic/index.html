@@ -11,43 +11,58 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 <style>
-img
-    {
+    div.box {
+        border: 1px solid white;
+        margin: 5px;
+    }
+    div.box2 {
+        border: 1px solid red;
+        margin: 5px;
+    }
+    img {
         border: 1px solid #ddd;
-        border-radius: 4px;
         padding: 5px;
         width: 150px;
+        margin: 5px;
     }
-body 
-    {
+
+    body {
         background-color: black;
         font-family: 'Montserrat', sans-serif;
     }
-h1 
-    {
+
+    h1 {
         color: red;
     }
- p 
-    {
+
+    p {
         color: green;
     }
-.description 
-    {
+
+    .description {
         color: white;
     }
-.description name 
-    {
+
+    .description name {
         color: aqua;
     }
 </style>
+
 <body>
-    <h1>Profile</h1>
-    <img src="https://media.licdn.com/dms/image/C4E03AQHKgjN8IqgtBA/profile-displayphoto-shrink_800_800/0/1619661254912?e=1686182400&v=beta&t=b8PmDm0rf5nxm040vaq0w3EtjdyKlvgqQMM3KrwGuaw"
-        sizes="100px" alt="Profile pic">
-    <p class="description">Hello My name is <name> Kadir Onur Gezer</name>
-    </p>
-    <p class="description">I am Cloud Engineer </p>
-    <br>
-    <p> I am in IT industry in 8 years</p>
+    <div class="box">
+        <h1>Profile</h1>
+        <hr color="red">
+        <div class="box">
+            <img src="https://media.licdn.com/dms/image/C4E03AQHKgjN8IqgtBA/profile-displayphoto-shrink_800_800/0/1619661254912?e=1686182400&v=beta&t=b8PmDm0rf5nxm040vaq0w3EtjdyKlvgqQMM3KrwGuaw" sizes="100px" alt="Profile pic">
+            <p class="description">Hello My name is <name> Kadir Onur Gezer</name>
+            </p>
+            <p class="description">I am Cloud Engineer </p>
+        </div>
+        <div class="box">
+            <div class="box2"> 
+                <p> I am in IT industry in 8 years</p>
+            </div>
+        </div>
+        </div>
 </body>
 </html>
